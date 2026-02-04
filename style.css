@@ -406,5 +406,16 @@ a:hover { color: var(--red-hot); }
     .section-header h2 { font-size: 1.7rem; }
     .container { padding: 0 1.25rem; }
     .text-hero-secondary { font-size: 1.3rem; }
-    .cv-embed { height: 450px; }
+    .cv-embed { display: none; }
+    .cv-mobile-msg { display: block; }
+}
+
+.cv-mobile-msg {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+    background: rgba(255,255,255,0.05);
+    border-radius: var(--radius);
+    color: rgba(255,255,255,0.7);
+    font-size: 0.95rem;
 }
